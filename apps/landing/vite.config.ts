@@ -5,8 +5,8 @@ import { defineConfig, type Plugin } from 'vite';
 
 // Fallback defaults for hosts where build-time env vars can't be configured (e.g. no dashboard
 // access to the deploying Vercel project). Real env vars, when set, always override these.
-const DEFAULT_SITE_ORIGIN = 'https://mindcare-ai-three.vercel.app';
-const DEFAULT_APP_URL = 'https://mindcare-ai-git-main-marcben-james-samuel-ss-projects.vercel.app/';
+const DEFAULT_SITE_ORIGIN = 'https://siroi-landing-eight.vercel.app';
+const DEFAULT_APP_URL = 'https://mindcare-ai-three.vercel.app/';
 
 /** Fills %TOKENS% in every HTML page. */
 function tokens(): Plugin {

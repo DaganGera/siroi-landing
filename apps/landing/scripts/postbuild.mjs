@@ -1,7 +1,7 @@
 import { writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-const origin = (process.env.SITE_ORIGIN ?? 'https://mindcare-ai-three.vercel.app').replace(/\/$/, '');
+const origin = (process.env.SITE_ORIGIN ?? 'https://siroi-landing-eight.vercel.app').replace(/\/$/, '');
 const dist = resolve(import.meta.dirname, '..', 'dist');
 const routes = ['/', '/privacy/', '/limitations/', '/credits/'];
 
